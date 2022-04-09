@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/sign.css" />
+	<link rel="icon" type="image/x-icon" href="images\logo.jpg">
+	<a href = "index.html">
+	<img src = "images/tLogo.png" style="width:8%;position:fixed; top:0; left:0;"></a>
+	<title>
+		Organization Sign Up/In
+	</title>
+</head>
+
+<body>
+	<h1 style="color:white;">Organization Sign Up</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Organization Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter organization name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter organization email" />
+		</div>
+
+		<div class="form-control">
+			<label for="funds" id="label-funds">
+				Funds Required
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="funds"
+				placeholder="Funds Required" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which option best describes you?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="student">President</option>
+				<option value="intern">Treasurer</option>
+				<option value="professional">
+					Board Member
+				</option>
+				<option value="other">Other Leadership Role</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>Category of Organization
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Sports</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Public Service/Philanthropy</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Academic/Educational</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Media and Publication</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Engineering/Science</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Technology</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Student Government</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Religious/Spiritual</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Activism</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Hobby/Leisure</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Any additional information
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			<p style="color: white;">Submit</p>
+		</button>
+	</form>
+</body>
+
+</html>
